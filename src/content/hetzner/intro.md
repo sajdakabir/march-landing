@@ -1,17 +1,15 @@
 ---
 order: 0
-title: "Deploying to Hetzner Cloud"
+title: "inbox"
 shortTitle: "inbox"
-description: "Learn how to deploy to Hetzner Cloud."
+description: "inbox"
 lastModifiedAt: 2024-06-18
 publishedAt: 2024-06-18
 ---
 
-# Deploying to Hetzner Cloud
+# inbox
 
-Hetzner Cloud is a cloud service that provides a range of services, including virtual machines, storage, networking, and more. It's a popular choice for hosting web applications and other services.
-
-In this guide, we'll explain different services provided by Hetzner and cover the basics of deploying your first application to Hetzner Cloud.
+It's your default destination of anything you capture on the internet and action items, to-dos from all your connected apps to process later or move them to today..
 
 <!-- 1. [Provision a server](/hetzner/provision)
 2. [Setup a network](/hetzner/network)

@@ -37,30 +37,6 @@ const SQLite = defineCollection({
   }),
 });
 
-// const Postgres = defineCollection({
-//   type: "content",
-//   schema: baseSchema.extend({
-//     type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
-//     name: z.literal("Postgres").default("Postgres"),
-//   }),
-// });
-
-// const Redis = defineCollection({
-//   type: "content",
-//   schema: baseSchema.extend({
-//     type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
-//     name: z.literal("Redis").default("Redis"),
-//   }),
-// });
-
-// const Caddy = defineCollection({
-//   type: "content",
-//   schema: baseSchema.extend({
-//     type: z.literal(TypeEnum.enum.webserver).default(TypeEnum.enum.webserver),
-//     name: z.literal("Caddy").default("Caddy"),
-//   }),
-// });
-
 const Hetzner = defineCollection({
   type: "content",
   schema: baseSchema.extend({

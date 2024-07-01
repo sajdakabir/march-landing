@@ -45,7 +45,7 @@ const getStatus = (publishedAt: string, lastModifiedAt: string) => {
   <main
     class="flex mx-auto max-w-5xl md:gap-14 px-8 md:px-10 lg:px-12 py-4 md:py-8 lg:py-12"
   >
-    <aside class="shrink-0">
+    <aside class="shrink-0 ">
       <Sidebar
         sections={allCollections.map((collection) => ({
           title: collection[0].data.name,
@@ -59,7 +59,7 @@ const getStatus = (publishedAt: string, lastModifiedAt: string) => {
         }))}
       />
     </aside>
-    <main class="gap-8 flex flex-col w-full">
+    <main class="gap-8 flex flex-col w-full text-black">
       <Navbar />
       <slot />
     </main>
