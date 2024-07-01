@@ -33,7 +33,7 @@ const March = defineCollection({
 const Satellite = defineCollection({
   type: "content",
   schema: baseSchema.extend({
-    type: z.literal(TypeEnum.enum.webserver).default(TypeEnum.enum.webserver),
+    // type: z.literal(TypeEnum.enum.webserver).default(TypeEnum.enum.webserver),
     name: z.literal("satellite").default("satellite"),
   }),
 });
