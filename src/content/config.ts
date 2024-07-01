@@ -5,17 +5,12 @@ export const TypeEnum = z.enum([
   "database",
   "storage",
   "queue",
-  "webserver",
 ]);
 
 export const ServiceName = z.enum([
   "base",
-  "SQLite",
-  "Postgres",
-  "Caddy",
-
-  "Apache",
-  "Hetzner",
+  "March",
+  "Satellite",
 ]);
 
 const baseSchema = z.object({
@@ -25,19 +20,17 @@ const baseSchema = z.object({
   order: z.number().optional().default(Infinity),
   title: z.string(),
   description: z.string(),
-  lastModifiedAt: z.coerce.date().optional(),
-  publishedAt: z.coerce.date(),
 });
 
-const SQLite = defineCollection({
+const March = defineCollection({
   type: "content",
   schema: baseSchema.extend({
     type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
-    name: z.literal("SQLite").default("SQLite"),
+    name: z.literal("march").default("march"),
   }),
 });
 
-const Hetzner = defineCollection({
+const Satellite = defineCollection({
   type: "content",
   schema: baseSchema.extend({
     type: z.literal(TypeEnum.enum.webserver).default(TypeEnum.enum.webserver),
@@ -46,9 +39,6 @@ const Hetzner = defineCollection({
 });
 
 export const collections = {
-  sqlite: SQLite,
-  // postgres: Postgres,
-  // caddy: Caddy,
-  hetzner: Hetzner,
-  // redis: Redis,
+  march: March,
+  satellite: Satellite,
 };

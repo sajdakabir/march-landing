@@ -12,6 +12,16 @@ export default {
 			colors: {
 				gray: colors.neutral,
 			},
+			typography: {
+				DEFAULT: {
+				  css: {
+					p: {
+					  marginTop: '1rem',
+					  marginBottom: '1rem',
+					},
+				  },
+				},
+			  },
 		},
 	},
 	plugins: [

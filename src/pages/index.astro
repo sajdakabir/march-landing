@@ -1,7 +1,8 @@
----
+<!-- ---
 import ProseLayout from "../layouts/ProseLayout.astro";
 import Newsletter from "../components/newsletter.astro";
-import { LogSnag } from "@logsnag/astro/server";
+import axios, { AxiosError } from "axios";
+// import { LogSnag } from "@logsnag/astro/server";
 
 if (Astro.request.method === "POST") {
   const formData = await Astro.request.formData();
@@ -9,34 +10,76 @@ if (Astro.request.method === "POST") {
   if (!email) {
     return Astro.redirect(
       `/?error=${encodeURIComponent("Please enter an email")}`
+      //  const formBody = `email=${encodeURIComponent(email)}`;
     );
   }
 
-  const sng = new LogSnag({
-    token: import.meta.env.DEV
-      ? import.meta.env.LOGSNAG_TOKEN
-      : Astro.locals.runtime.env.LOGSNAG_TOKEN,
-    project: import.meta.env.DEV
-      ? import.meta.env.LOGSNAG_PROJECT
-      : Astro.locals.runtime.env.LOGSNAG_PROJECT,
-  });
+  // const sng = new LogSnag({
+  //   token: import.meta.env.DEV
+  //     ? import.meta.env.LOGSNAG_TOKEN
+  //     : Astro.locals.runtime.env.LOGSNAG_TOKEN,
+  //   project: import.meta.env.DEV
+  //     ? import.meta.env.LOGSNAG_PROJECT
+  //     : Astro.locals.runtime.env.LOGSNAG_PROJECT,
+  // });
+  console.log(import.meta.env.NEWSLETTER_LOOPS_API);
+  const formBody = `email=${encodeURIComponent(email)}`;
   try {
-    await sng.track({
-      channel: "newsletter",
-      event: `New Subscriber`,
-      description: `${email} has subscribed to the newsletter`,
-      icon: "🌟",
-      notify: true,
-      user_id: email,
-      tags: {
-        email: email.trim(),
-      },
-    });
-  } catch (e) {
-    console.error(e);
+    const response = await axios.post(
+    import.meta.env.NEWSLETTER_LOOPS_API!,
+    formData,
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      }
+    );
+    console.log(response);
+  } catch (error) {
+    const e = error as AxiosError;
+    console.error(e.response?.data);
   }
   return Astro.redirect("/?registered=true");
+} -->
+---
+import ProseLayout from "../layouts/ProseLayout.astro";
+import Newsletter from "../components/newsletter.astro";
+import axios, { AxiosError } from "axios";
+
+if (Astro.request.method === "POST") {
+  const formData = await Astro.request.formData();
+  const email = formData.get("email") as string;
+
+  if (!email) {
+    return Astro.redirect(
+      `/?error=${encodeURIComponent("Please enter an email")}`
+    );
+  }
+const api=import.meta.env.NEWSLETTER_LOOPS_API;
+  const formBody = `email=${encodeURIComponent(email)}`;
+
+  try {
+    const response = await axios.post(
+    'https://app.loops.so/api/newsletter-form/clky11weo00q9l80oo39mxfp4',
+      formBody,
+      {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      }
+    );
+    console.log(response.data); // Assuming you want to log the response data
+  } catch (error) {
+    const e = error as AxiosError;
+    console.error("Error while submitting newsletter form:", e.response?.data);
+    return Astro.redirect(
+      `/?error=${encodeURIComponent("Failed to submit newsletter form")}`
+    );
+  }
+
+  return Astro.redirect("/?registered=true");
 }
+
 ---
 
 <ProseLayout  class="text-black">
@@ -48,9 +91,9 @@ if (Astro.request.method === "POST") {
     fully open source— built in rust.
   </p>
   <p class="text-black">
-    we have a satellite version for makers who like adventures, to contribute/play <a class="text-black" href="mailto: satellite@march.cat" target="_blank">Email</a> or visit our <a class="text-black" href="https://github.com/marchhq" target="_blank">GitHub</a>  page.
+    we have a satellite version for makers who like adventures, to contribute/play <a class="text-black" href="mailto: satellite@march.cat" target="_blank">mailto: satellite@march.cat</a> or visit our <a class="text-black" href="https://github.com/marchhq" target="_blank">github</a>  page.
   </p>
 
-  <p class="text-black">btw, we make <a class="text-black" href="https://marchhq.notion.site/28ca05934f954d92bf006f410cce8745?v=fa9099b0ad4f450ca8d9997a8aecbee8" target="_blank">memes</a> too ◠‿◠</p>
+  <p class="text-black">btw, we make <a class="text-black" href="https://blog.march.cat" target="_blank">memes</a> too ◠‿◠</p>
   <Newsletter />
 </ProseLayout>

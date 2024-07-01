@@ -12,38 +12,11 @@ const allCollections = await Promise.all(
   // @ts-ignore
   Object.keys(collections).map(getCollection)
 );
-
-// TODO: clean this up later.
-const lastModified = allCollections.reduce((acc, collection) => {
-  const collectionLastModified = collection.reduce((subAcc, submission) => {
-    return new Date(submission.data.lastModifiedAt) > subAcc ? new Date(submission.data.lastModifiedAt) : subAcc;
-  }, new Date(0));
-  return collectionLastModified > acc ? collectionLastModified : acc;
-}, new Date(0));
-
-const lastCreated = allCollections.reduce((acc, collection) => {
-  const collectionLastCreated = collection.reduce((subAcc, submission) => {
-    return new Date(submission.data.publishedAt) > subAcc ? new Date(submission.data.publishedAt) : subAcc;
-  }, new Date(0));
-  return collectionLastCreated > acc ? collectionLastCreated : acc;
-}, new Date(0));
-
-const getStatus = (publishedAt: string, lastModifiedAt: string) => {
-  const published = new Date(publishedAt);
-  const modified = new Date(lastModifiedAt);
-  if (modified >= lastModified) {
-    return "updated";
-  } else if (published >= lastCreated) {
-    return "new";
-  } else {
-    return undefined;
-  }
-};
 ---
 
 <Layout {...Astro.props}>
   <main
-    class="flex mx-auto max-w-5xl md:gap-14 px-8 md:px-10 lg:px-12 py-4 md:py-8 lg:py-12"
+    class="flex mx-auto max-w-5xl md:gap-14 px-8 md:px-10 lg:px-12 py-4 md:py-8 lg:py-12 text-gray-500 group hover:text-gray-700"
   >
     <aside class="shrink-0 ">
       <Sidebar
@@ -54,7 +27,6 @@ const getStatus = (publishedAt: string, lastModifiedAt: string) => {
             .map((entry) => ({
               title: entry.data.shortTitle,
               href: `/${entry.collection}/${entry.slug}`,
-              status: getStatus(entry.data.publishedAt, entry.data.lastModifiedAt),
             })),
         }))}
       />
@@ -85,6 +57,7 @@ const getStatus = (publishedAt: string, lastModifiedAt: string) => {
 
     .line.highlighted {
       background-color: #8e96aa24;
+      /* background-color: green; */
       transition: background-color 0.5s;
       margin: 0 -24px;
       padding: 0 24px;
@@ -94,6 +67,7 @@ const getStatus = (publishedAt: string, lastModifiedAt: string) => {
 
     .line.highlighted.warning {
       background-color: #eab30824;
+      /* background-color: green; */
     }
 
     .diff {

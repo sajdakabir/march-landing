@@ -135,57 +135,57 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"hetzner": {
-"firewall.md": {
-	id: "firewall.md";
-  slug: "firewall";
+		"march": {
+"what-is-it.md": {
+	id: "what-is-it.md";
+  slug: "what-is-it";
   body: string;
-  collection: "hetzner";
-  data: InferEntrySchema<"hetzner">
+  collection: "march";
+  data: InferEntrySchema<"march">
 } & { render(): Render[".md"] };
-"intro.md": {
-	id: "intro.md";
-  slug: "intro";
+"why-march.md": {
+	id: "why-march.md";
+  slug: "why-march";
   body: string;
-  collection: "hetzner";
-  data: InferEntrySchema<"hetzner">
-} & { render(): Render[".md"] };
-"load-balancer.md": {
-	id: "load-balancer.md";
-  slug: "load-balancer";
-  body: string;
-  collection: "hetzner";
-  data: InferEntrySchema<"hetzner">
-} & { render(): Render[".md"] };
-"network.md": {
-	id: "network.md";
-  slug: "network";
-  body: string;
-  collection: "hetzner";
-  data: InferEntrySchema<"hetzner">
-} & { render(): Render[".md"] };
-"provision.md": {
-	id: "provision.md";
-  slug: "provision";
-  body: string;
-  collection: "hetzner";
-  data: InferEntrySchema<"hetzner">
+  collection: "march";
+  data: InferEntrySchema<"march">
 } & { render(): Render[".md"] };
 };
-"sqlite": {
-"intro.md": {
-	id: "intro.md";
-  slug: "intro";
+"satellite": {
+"blocks.md": {
+	id: "blocks.md";
+  slug: "blocks";
   body: string;
-  collection: "sqlite";
-  data: InferEntrySchema<"sqlite">
+  collection: "satellite";
+  data: InferEntrySchema<"satellite">
 } & { render(): Render[".md"] };
-"ws4sqlite.md": {
-	id: "ws4sqlite.md";
-  slug: "ws4sqlite";
+"clipper.md": {
+	id: "clipper.md";
+  slug: "clipper";
   body: string;
-  collection: "sqlite";
-  data: InferEntrySchema<"sqlite">
+  collection: "satellite";
+  data: InferEntrySchema<"satellite">
+} & { render(): Render[".md"] };
+"inbox.md": {
+	id: "inbox.md";
+  slug: "inbox";
+  body: string;
+  collection: "satellite";
+  data: InferEntrySchema<"satellite">
+} & { render(): Render[".md"] };
+"integrations.md": {
+	id: "integrations.md";
+  slug: "integrations";
+  body: string;
+  collection: "satellite";
+  data: InferEntrySchema<"satellite">
+} & { render(): Render[".md"] };
+"today.md": {
+	id: "today.md";
+  slug: "today";
+  body: string;
+  collection: "satellite";
+  data: InferEntrySchema<"satellite">
 } & { render(): Render[".md"] };
 };
 

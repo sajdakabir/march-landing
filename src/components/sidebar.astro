@@ -7,7 +7,6 @@ interface Props {
     subsections: {
       title: string;
       href: string;
-      status: 'new' | 'updated' | undefined;
     }[];
   }[];
 }
@@ -82,33 +81,16 @@ const isActive = (href: string) => path.startsWith(href);
               {section.subsections.map((subsection) => (
                 <a
                   class={cn(
-                    "text-gray-500 group hover:text-gray-300 lowercase relative",
+                    "text-gray-500 group hover:text-gray-700 lowercase relative",
                     "flex items-center gap-2",
                     "transition-colors duration-300",
                     {
-                      "text-gray-300": isActive(subsection.href),
+                      "text-gray-700": isActive(subsection.href),
                     }
                   )}
                   href={`${subsection.href}`}
                 >
                   {subsection.title}
-                  <div
-                    class={cn(
-                      "absolute -left-4 inset-y-0 w-px rounded-full",
-                      "group-hover:bg-orange-500 transition-colors duration-300",
-                      {
-                        "bg-orange-500": isActive(subsection.href),
-                      }
-                    )}
-                  />
-                  {subsection.status !== undefined && (
-                    <span title={subsection.status} class={cn(
-                      "h-1.5 w-1.5 rounded-full bg-gray-100",
-                      {
-                        "bg-orange-500": subsection.status === 'updated',
-                        "bg-green-500": subsection.status === 'new',
-                      })} />
-                  )}
                 </a>
               ))}
             </div>

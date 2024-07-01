@@ -19,6 +19,7 @@
     "@tailwindcss/typography": "^0.5.13",
     "astro": "^4.11.3",
     "astro-seo": "^0.8.4",
+    "axios": "^1.7.2",
     "clsx": "^2.1.1",
     "minisearch": "^6.3.0",
     "tailwind-merge": "^2.3.0",
