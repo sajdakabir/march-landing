@@ -7,4 +7,4 @@ description: "what is it"
 
 # what is it
 
-march is a blazing fast connected workspace for all your action items, to-do's notes, urls to put on motion.
+march is a blazing fast connected workspace for all your action items, to-dos, notes, urls to put in motion.

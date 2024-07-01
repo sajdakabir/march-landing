@@ -5,7 +5,7 @@ let error = Astro.url.searchParams.get("error");
 
 <hr />
 
-<p class="text-black" >Join our newsletter.</p>
+<p class="text-black" >join our waitlist.</p>
 
 <form
   method="POST"
@@ -50,7 +50,7 @@ let error = Astro.url.searchParams.get("error");
 </form>
 {
   registered && (
-    <p class="text-sm sm:text-xs font-mono text-neutral-100">Thank you!</p>
+    <p class="text-sm sm:text-xs font-mono text-black">you've triggered a loop!</p>
   )
 }
 {error && <p class="text-sm sm:text-xs font-mono text-red-500">{error}</p>}
