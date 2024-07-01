@@ -1,0 +1,56 @@
+---
+import ProseLayout from "../layouts/ProseLayout.astro";
+import Newsletter from "../components/newsletter.astro";
+import { LogSnag } from "@logsnag/astro/server";
+
+if (Astro.request.method === "POST") {
+  const formData = await Astro.request.formData();
+  const email = formData.get("email") as string;
+  if (!email) {
+    return Astro.redirect(
+      `/?error=${encodeURIComponent("Please enter an email")}`
+    );
+  }
+
+  const sng = new LogSnag({
+    token: import.meta.env.DEV
+      ? import.meta.env.LOGSNAG_TOKEN
+      : Astro.locals.runtime.env.LOGSNAG_TOKEN,
+    project: import.meta.env.DEV
+      ? import.meta.env.LOGSNAG_PROJECT
+      : Astro.locals.runtime.env.LOGSNAG_PROJECT,
+  });
+  try {
+    await sng.track({
+      channel: "newsletter",
+      event: `New Subscriber`,
+      description: `${email} has subscribed to the newsletter`,
+      icon: "🌟",
+      notify: true,
+      user_id: email,
+      tags: {
+        email: email.trim(),
+      },
+    });
+  } catch (e) {
+    console.error(e);
+  }
+  return Astro.redirect("/?registered=true");
+}
+---
+
+<ProseLayout  class="text-black">
+  <h1 class="text-black">hola martians!</h1>
+  <p class="text-black">
+    dump almost everything and put them in a highly opinionated workflow to actually process them.
+  </p>
+  <p class="text-black">
+    fully open source— built in rust.
+  </p>
+  <p class="text-black">
+    we have a satellite version for makers who like adventures, to contribute/play <a class="text-black" href="mailto: satellite@march.cat" target="_blank">Email</a> or visit our <a class="text-black" href="https://github.com/marchhq" target="_blank">GitHub</a>  page.
+  </p>
+
+  <p class="text-black">btw, we make <a class="text-black" href="https://marchhq.notion.site/28ca05934f954d92bf006f410cce8745?v=fa9099b0ad4f450ca8d9997a8aecbee8" target="_blank">memes</a> too ◠‿◠</p>
+  <Newsletter />
+</ProseLayout>
