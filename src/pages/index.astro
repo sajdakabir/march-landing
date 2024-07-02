@@ -45,6 +45,8 @@ if (Astro.request.method === "POST") {
 import ProseLayout from "../layouts/ProseLayout.astro";
 import Newsletter from "../components/newsletter.astro";
 import axios, { AxiosError } from "axios";
+import { NEWSLETTER_LOOPS_API } from "astro:env/server"
+
 
 if (Astro.request.method === "POST") {
   const formData = await Astro.request.formData();
@@ -55,13 +57,13 @@ if (Astro.request.method === "POST") {
       `/?error=${encodeURIComponent("Please enter an email")}`
     );
   }
-const api=import.meta.env.NEWSLETTER_LOOPS_API;
+const api=NEWSLETTER_LOOPS_API;
 
   const formBody = `email=${encodeURIComponent(email)}`;
 
   try {
     const response = await axios.post(
-    'https://app.loops.so/api/newsletter-form/clky11weo00q9l80oo39mxfp4',
+     api,
       formBody,
       {
         headers: {
