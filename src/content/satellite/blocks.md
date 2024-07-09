@@ -7,7 +7,7 @@ description: "blocks"
 
 # blocks
 
-you might like to see your watch-list and reading list together in a single page ? using blocks you can build your own productivity space.
+need a home for saving all your dumps but in your own style ?  or you might like to see your watch-list and reading list together in a single page ? using blocks you can build your own productivity page.
 
 currently we have three types of blocks : notes, to-do board, embeds.
 
