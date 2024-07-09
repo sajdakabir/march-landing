@@ -7,6 +7,8 @@ description: "inbox"
 
 # inbox
 
-it's your default destination of anything you capture on the internet and action items, to-dos from all your connected apps to process later or schedule/postpone them to anyday.
+— no need to juggle between apps to collect to-dos/ action items to manually add them in your daily actio plan.
+
+ march inbox your default destination of anything you capture on the internet, to-dos/action items from all your connected apps to process later or schedule/postpone them to anyday.
 
 TODO: add screen
