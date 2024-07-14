@@ -25,7 +25,7 @@ const baseSchema = z.object({
 const March = defineCollection({
   type: "content",
   schema: baseSchema.extend({
-    type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
+    // type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
     name: z.literal("march").default("march"),
   }),
 });
