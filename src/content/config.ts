@@ -10,7 +10,7 @@ export const TypeEnum = z.enum([
 export const ServiceName = z.enum([
   "base",
   "March",
-  "Satellite",
+  "product",
 ]);
 
 const baseSchema = z.object({
@@ -30,15 +30,15 @@ const March = defineCollection({
   }),
 });
 
-const Satellite = defineCollection({
+const Product = defineCollection({
   type: "content",
   schema: baseSchema.extend({
     // type: z.literal(TypeEnum.enum.webserver).default(TypeEnum.enum.webserver),
-    name: z.literal("satellite").default("satellite"),
+    name: z.literal("product").default("product"),
   }),
 });
 
 export const collections = {
   march: March,
-  satellite: Satellite,
+  product: Product,
 };

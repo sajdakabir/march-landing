@@ -20,4 +20,4 @@ i have some late night thoughts saved in my apple notes and my personal to-dos a
 sounds familiar ?
  
 
-read— [why not notion?](https://blog.march.cat/post/why-not-notion)
+read— [why not notion?]( https://blog.march.cat )

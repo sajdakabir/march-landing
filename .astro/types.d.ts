@@ -136,56 +136,56 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"march": {
-"what-is-it.md": {
-	id: "what-is-it.md";
-  slug: "what-is-it";
+"open-source.md": {
+	id: "open-source.md";
+  slug: "open-source";
   body: string;
   collection: "march";
-  data: InferEntrySchema<"march">
+  data: any
 } & { render(): Render[".md"] };
 "why-march.md": {
 	id: "why-march.md";
   slug: "why-march";
   body: string;
   collection: "march";
-  data: InferEntrySchema<"march">
+  data: any
 } & { render(): Render[".md"] };
 };
-"satellite": {
+"product": {
 "blocks.md": {
 	id: "blocks.md";
   slug: "blocks";
   body: string;
-  collection: "satellite";
-  data: InferEntrySchema<"satellite">
+  collection: "product";
+  data: any
 } & { render(): Render[".md"] };
 "clipper.md": {
 	id: "clipper.md";
   slug: "clipper";
   body: string;
-  collection: "satellite";
-  data: InferEntrySchema<"satellite">
+  collection: "product";
+  data: any
 } & { render(): Render[".md"] };
 "inbox.md": {
 	id: "inbox.md";
   slug: "inbox";
   body: string;
-  collection: "satellite";
-  data: InferEntrySchema<"satellite">
+  collection: "product";
+  data: any
 } & { render(): Render[".md"] };
 "integrations.md": {
 	id: "integrations.md";
   slug: "integrations";
   body: string;
-  collection: "satellite";
-  data: InferEntrySchema<"satellite">
+  collection: "product";
+  data: any
 } & { render(): Render[".md"] };
 "today.md": {
 	id: "today.md";
   slug: "today";
   body: string;
-  collection: "satellite";
-  data: InferEntrySchema<"satellite">
+  collection: "product";
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -197,5 +197,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }
