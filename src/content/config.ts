@@ -25,7 +25,8 @@ const baseSchema = z.object({
 const March = defineCollection({
   type: "content",
   schema: baseSchema.extend({
-    // type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
+    type: z.literal(TypeEnum.enum.database).default(TypeEnum.enum.database),
+    order: z.number().optional().default(Infinity),
     name: z.literal("march").default("march"),
   }),
 });
@@ -34,6 +35,7 @@ const Product = defineCollection({
   type: "content",
   schema: baseSchema.extend({
     // type: z.literal(TypeEnum.enum.webserver).default(TypeEnum.enum.webserver),
+    order: z.number().optional().default(Infinity),
     name: z.literal("product").default("product"),
   }),
 });
