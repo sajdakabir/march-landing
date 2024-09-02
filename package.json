@@ -18,7 +18,7 @@
     "@logsnag/astro": "^1.0.0-beta.1",
     "@shikijs/transformers": "^1.14.1",
     "@tailwindcss/typography": "^0.5.14",
-    "astro": "^4.14.5",
+    "astro": "^4.15.1",
     "astro-seo": "^0.8.4",
     "axios": "^1.7.4",
     "clsx": "^2.1.1",
