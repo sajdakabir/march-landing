@@ -23,7 +23,8 @@ Joao Rafael - Interface Engineer
 <a href="https://joaorafael.me" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">website</a>
 
 Deewakar Kumar (Dazai) - Frontend Engineer  
-<a href="https://github.com/deewakar-k" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>
+<a href="https://github.com/deewakar-k" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>,
+<a href="https://deewakar-info.vercel.app/" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">website</a>
 
 Contributors:
 
