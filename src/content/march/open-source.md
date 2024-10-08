@@ -27,14 +27,14 @@ Deewakar Kumar (Dazai) - Frontend Engineer
 
 Contributors:
 
-1. Jitendra Nirnejak — <a href="https://github.com/nirnejak" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-2. Xron Trix — <a href="https://github.com/XronTrix10" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-3. Deewakar Kumar — <a href="https://github.com/deewakar-k" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-4. Madhav Singh — <a href="https://github.com/madhav-relish" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-5. Hitesh Gurnami — <a href="https://github.com/Hitesh-gurnani" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-6. Aasim Bhat — <a href="https://github.com/bhataasim1" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-7. Lixel Amos — <a href="https://github.com/lixelamos" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
-8. Hanzi Li — <a href="https://github.com/hanzili" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>  
+1. Jitendra Nirnejak — <a href="https://github.com/nirnejak" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/nirnejak</a>  
+2. Xron Trix — <a href="https://github.com/XronTrix10" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/XronTrix10</a>  
+3. Deewakar Kumar — <a href="https://github.com/deewakar-k" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/deewakar-k</a>  
+4. Madhav Singh — <a href="https://github.com/madhav-relish" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/madhav-relish</a>  
+5. Hitesh Gurnami — <a href="https://github.com/Hitesh-gurnani" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/Hitesh-gurnani</a>  
+6. Aasim Bhat — <a href="https://github.com/bhataasim1" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/bhataasim1</a>  
+7. Lixel Amos — <a href="https://github.com/lixelamos" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/lixelamos</a>  
+8. Hanzi Li — <a href="https://github.com/hanzili" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/hanzili</a>  
 
 
 
