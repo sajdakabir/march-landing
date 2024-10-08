@@ -5,27 +5,29 @@ title: "open source"
 description: "open source"
 ---
 
-# open
-march is an oss/acc startup which means it commits to operate fully transparent.
+# Open
+March is an OSS/ACC startup, which means it commits to operate fully transparently.
 
-team:
+## Team:
 
-Oliur Sahin - co-founder
-[twitter]( https://x.com/oliursahin),[posts]( https://oliursahin.com)
+### Oliur Sahin - Co-founder
+<a href="https://x.com/oliursahin" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">twitter</a>, 
+<a href="https://oliursahin.com" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">posts</a>
 
-Sajda Kabir - co-founder
-[github]( https://github.com/sajdakabir),[posts]( https://sajdakabir.me)
+### Sajda Kabir - Co-founder
+<a href="https://github.com/sajdakabir" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>, 
+<a href="https://sajdakabir.me" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">posts</a>
 
-Joao Rafael - interface engineer
-[github](https://github.com/joaorceschini),( https://joaorafael.me)
+### Joao Rafael - Interface Engineer
+<a href="https://github.com/joaorceschini" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>, 
+<a href="https://joaorafael.me" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">posts</a>
 
-Deewakar Kumar ( Dazai) - frontend engineer
-[github](https://github.com/deewakar-k)
+### Deewakar Kumar (Dazai) - Frontend Engineer
+<a href="https://github.com/deewakar-k" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>
 
+## Contributors:
 
-Contributors:
+TODO: add contributors profiles and urls  
+Visit our <a href="https://github.com/marchhq" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a> to contribute.
 
-TODO: add contributors profiles and urls
-visit our [github]( https://github.com/marchhq) contribute.
-
-[public wiki](https://www.notion.so/77431d8a57e94977a1f27689f1944d25?v=96b8473a1a654111831782d9d6f9f2cc) — updates regularly.
+[Public Wiki](https://www.notion.so/77431d8a57e94977a1f27689f1944d25?v=96b8473a1a654111831782d9d6f9f2cc) — updates regularly.
