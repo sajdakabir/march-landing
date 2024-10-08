@@ -143,6 +143,20 @@ declare module 'astro:content' {
   collection: "march";
   data: InferEntrySchema<"march">
 } & { render(): Render[".md"] };
+"posts.md": {
+	id: "posts.md";
+  slug: "posts";
+  body: string;
+  collection: "march";
+  data: InferEntrySchema<"march">
+} & { render(): Render[".md"] };
+"privacy-policy.md": {
+	id: "privacy-policy.md";
+  slug: "privacy-policy";
+  body: string;
+  collection: "march";
+  data: InferEntrySchema<"march">
+} & { render(): Render[".md"] };
 "why-march.md": {
 	id: "why-march.md";
   slug: "why-march";
