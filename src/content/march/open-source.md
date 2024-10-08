@@ -9,6 +9,7 @@ description: "open source"
 March is an OSS/ACC startup, which means it commits to operate fully transparently.
 
 Team: 
+
 Oliur Sahin - Co-founder  
 <a href="https://x.com/oliursahin" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">twitter</a>, 
 <a href="https://oliursahin.com" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">posts</a>
