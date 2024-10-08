@@ -18,7 +18,7 @@ Sajda Kabir - Co-founder
 <a href="https://github.com/sajdakabir" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>, 
 <a href="https://sajdakabir.me" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">posts</a>
 
-Joao Rafael - Interface Engineer  
+Joao Rafael - Frontend Engineer  
 <a href="https://github.com/joaorceschini" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>, 
 <a href="https://joaorafael.me" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">website</a>
 
