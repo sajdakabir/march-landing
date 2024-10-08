@@ -8,7 +8,7 @@ description: "open source"
 # Open
 March is an OSS/ACC startup, which means it commits to operate fully transparently.
 
-## Team:
+# Team:
 
 Oliur Sahin - Co-founder  
 <a href="https://x.com/oliursahin" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">twitter</a>, 
@@ -25,9 +25,11 @@ Joao Rafael - Interface Engineer
 Deewakar Kumar (Dazai) - Frontend Engineer  
 <a href="https://github.com/deewakar-k" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a>
 
-## Contributors:
+# Contributors:
 
 TODO: add contributors profiles and URLs  
+
+
 Visit our <a href="https://github.com/marchhq" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a> to contribute.
 
 [Public Wiki](https://www.notion.so/77431d8a57e94977a1f27689f1944d25?v=96b8473a1a654111831782d9d6f9f2cc) — updates regularly.
