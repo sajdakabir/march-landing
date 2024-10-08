@@ -7,6 +7,14 @@ description: "integrations"
 
 # integrations
 
-as of now we are supporting calendar & linear integration but feel free to try our Zapier integration if you like some adventure.
+Github & Linear : to get all your issues, asigned PR in march to turn them into daily action plans.
 
-In progress: email, gitHub, raycast
+Gmail: just add the 'march' lebel to send an email to march as to-do.
+
+Calendar: get all your calendar events in march, to get view of daily agenda or or your week's meetings in a singe space— makes it easier to take notes.
+
+Notion: pull your notion database items in march to actually get them done.
+
+
+
+In progress/ adding soon :raycast extension, zapier, slack.
