@@ -39,7 +39,11 @@ Contributors:
 
 
 
-Visit our <a href="https://github.com/marchhq" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a> to contribute.
+
+— Visit our <a href="https://github.com/marchhq" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a> to contribute.
+
+— say hi or find memes in our discord <a href="https://discord.gg/sugJGckV86" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">server</a>
+
 
 more at our <a href="https://www.notion.so/77431d8a57e94977a1f27689f1944d25?v=96b8473a1a654111831782d9d6f9f2cc" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">public wiki</a> — updates regularly.
 
