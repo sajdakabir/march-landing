@@ -36,7 +36,9 @@ Contributors:
 6. Aasim Bhat — <a href="https://github.com/bhataasim1" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/bhataasim1</a>  
 7. Lixel Amos — <a href="https://github.com/lixelamos" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/lixelamos</a>  
 8. Hanzi Li — <a href="https://github.com/hanzili" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/hanzili</a>
-9. Tanmay Adithya — <a href="https://github.com/TanmayAdithya" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/TanmayAdithya</a>  
+9. Tanmay Adithya — <a href="https://github.com/TanmayAdithya" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/TanmayAdithya</a>
+10. Nishant Dixit — <a href="https://github.com/nishaaannnt" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/nishaaannnt</a>  
+
 
 
 
