@@ -13,17 +13,34 @@ description: "privacy policy"
 
 </aside>
 
-# Privacy Policy
+# Privacy Policy - March Labs Inc.
 
-At **march, BDA march.cat ( march labs Inc.)**, we are committed to protecting the privacy of our customers and users. We take the security of our customer and user data seriously and use advanced encryption and SSL technologies to ensure that your data remains secure.
+At **March Labs (BDA march.cat)**, we prioritize the privacy and security of our users. This policy explains what data we collect, how we use it, how long we retain it, and your rights.
 
-We collect and process personal data for the purpose of providing our services to customers and users. We use the data we collect to provide, maintain, protect, and improve our services and to develop new features.
+**Data We Collect**
 
-We do not sell or rent personal data to third parties for their own marketing or other purposes. We do share personal data with third-party service providers, such as payment processors, in order to provide our services.
+- **Google Calendar**: We access your Google Calendar events (titles, descriptions, times, and metadata) to sync and display them in our app.
+- **Google Login**: We collect basic profile info (name, email, profile picture) when you authenticate using Google, to create and manage your account.
 
-We are committed to protecting the privacy of children. Our services are not intended for use by children under the age of 13.
+**How We Use Your Data**
 
-We may update our Privacy Policy from time to time. Any changes we make will be posted on this page.
+We use your data to provide and improve our services, including syncing calendar events and enabling Google login. We do not sell or share your data with third parties for marketing.
+
+**Data Retention & Deletion**
+
+We retain your data while your account is active or as needed to provide our services. You can request data deletion by contacting us at [mailto:sahin@march.cat](mailto:sahin@march.cat) , and we will delete your data within 30 days. If you revoke Google access, we will delete stored data within 30 days.
+
+**Security**
+
+We use SSL encryption and other security measures to protect your data in transit and at rest.
+
+**Compliance with Google Policies**
+
+We comply with Google’s Limited Use requirements, only accessing and retaining data for the services you request.
+
+**Policy Updates**
+
+We may update this policy from time to time. Changes will be posted here.
 
 # Terms of Service
 
