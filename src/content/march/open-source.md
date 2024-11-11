@@ -35,11 +35,18 @@ Contributors:
 5. Hitesh Gurnami — <a href="https://github.com/Hitesh-gurnani" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/Hitesh-gurnani</a>  
 6. Aasim Bhat — <a href="https://github.com/bhataasim1" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/bhataasim1</a>  
 7. Lixel Amos — <a href="https://github.com/lixelamos" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/lixelamos</a>  
-8. Hanzi Li — <a href="https://github.com/hanzili" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/hanzili</a>  
+8. Hanzi Li — <a href="https://github.com/hanzili" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/hanzili</a>
+9. Tanmay Adithya — <a href="https://github.com/TanmayAdithya" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/TanmayAdithya</a>
+10. Nishant Dixit — <a href="https://github.com/nishaaannnt" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/nishaaannnt</a>  
 
 
 
-Visit our <a href="https://github.com/marchhq" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a> to contribute.
 
-more at our <a href="https://www.notion.so/77431d8a57e94977a1f27689f1944d25?v=96b8473a1a654111831782d9d6f9f2cc" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">public wiki</a> — updates regularly.
+
+— Visit our <a href="https://github.com/marchhq" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github</a> to contribute.
+
+— say hi or find memes in our discord <a href="https://discord.gg/sugJGckV86" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">server</a>
+
+
+more at our <a href="https://marchhq.notion.site/" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">public wiki</a> — updates regularly.
 

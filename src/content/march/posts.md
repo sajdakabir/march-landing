@@ -10,10 +10,8 @@ description: "posts"
 product
 
 <a href="https://blog.march.cat/post/why-not-notion" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">why not notion</a>
-<span style="margin-left: 10px;">08-10-2024</span>
 
 <a href="https://blog.march.cat/post/march-method" style="text-decoration:none; color:grey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">march method</a>
-<span style="margin-left: 10px;">draft</span>
 
 
 random:  
