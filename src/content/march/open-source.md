@@ -38,7 +38,7 @@ Contributors:
 8. Hanzi Li — <a href="https://github.com/hanzili" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/hanzili</a>
 9. Tanmay Adithya — <a href="https://github.com/TanmayAdithya" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/TanmayAdithya</a>
 10. Nishant Dixit — <a href="https://github.com/nishaaannnt" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/nishaaannnt</a>  
-
+10. Tanbir Ali — <a href="https://github.com/tanbirali" style="color:grey; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='grey'">github.com/tanbirali</a> 
 
 
 
