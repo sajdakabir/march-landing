@@ -16,7 +16,7 @@
     "@astrojs/tailwind": "^6.0.2",
     "@astrojs/vercel": "^8.2.7",
     "@logsnag/astro": "^1.0.0-beta.1",
-    "@shikijs/transformers": "^3.12.2",
+    "@shikijs/transformers": "^3.13.0",
     "@tailwindcss/typography": "^0.5.15",
     "astro": "^4.16.19",
     "astro-seo": "^0.8.4",
